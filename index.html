@@ -38,6 +38,8 @@
     </style>
   </head>
   <body class="font-manrope">
+    <!-- Nav-Bar Section
+    ==================== -->
     <nav class="container mx-auto lg:px-24 py-4">
       <div>
         <div class="navbar flex items-center justify-between">
@@ -98,5 +100,110 @@
         </div>
       </div>
     </nav>
+    <!-- Header Section
+    =================== -->
+    <header class="container mx-auto lg:px-24 py-4">
+      <div class="relative">
+        <div class="carousel w-full lg:h-[550px]">
+          <!-- ! Slide 01 -->
+          <div id="slide1" class="carousel-item relative w-full">
+            <div
+              class="w-full bg-no-repeat object-cover bg-contain"
+              style="background-image: url(img/1.png)"
+            ></div>
+            <div
+              class="absolute lg:flex justify-between lg:transform -translate-y-1/2 left-5 right-5 top-28 lg:top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+
+          <!-- ! Slide 02 -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <div
+              class="w-full bg-no-repeat object-cover bg-contain"
+              style="background-image: url(img/1.png)"
+            ></div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <!-- ! Slide 03 -->
+          <div id="slide3" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row p-4 lg:p24 items-center">
+              <div class="space-y-7 flex-1 lg:px-32">
+                <h1 class="text-4xl lg:text-6xl font-bold">
+                  Ride on R15 V4 <br />
+                  with Smile
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem officiis assumenda commodi molestiae, amet et?
+                </p>
+                <button class="btn btn-error text-white">Purchase</button>
+              </div>
+              <div class="flex-1">
+                <img
+                  class="lg:w-[406px]"
+                  src="images/slider/bike3.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <!-- ! Slide 04 -->
+          <div id="slide4" class="carousel-item relative w-full">
+            <div class="flex flex-col lg:flex-row p-4 lg:p24 items-center">
+              <div class="space-y-7 flex-1 lg:px-32">
+                <h1 class="text-4xl lg:text-6xl font-bold">
+                  Ride on R15 V4 <br />
+                  with Smile
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatem officiis assumenda commodi molestiae, amet et?
+                </p>
+                <button class="btn btn-error text-white">Purchase</button>
+              </div>
+              <div class="flex-1">
+                <img
+                  class="lg:w-[406px]"
+                  src="images/slider/bike4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-black rounded-2xl py-4 lg:py-8 lg:w-[556px] text-white absolute bottom-0 lg:bottom-16 right-0 lg:right-8"
+        >
+          <h1 class="text-xl lg:text-2xl font-extrabold pl-6">
+            Meet all the heroes from the field
+          </h1>
+          <p class="text-[10px] lg:text-[14px] pl-6 font-medium mt-4">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            <br />
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
